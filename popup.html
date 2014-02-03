@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" text="text/css" href="app.css"/>
+  <script src="hmac-sha256.js"></script>
+  <script src="enc-base64-min.js"></script>
+  <script src="popup.js"></script>
+</head>
+<body>
+  <div class="row eight centered columns">
+    <div class="push-o title">
+      <h1 class="logo"><img alt="stinkybad logo" src="/images/logo.png"/></h1>
+      <div class="row twelve collapse">
+        <div class="nine mobile-three columns">
+          <input class="fx-validation-valid" id="noun" maxlength="8192" type="text" size="100" placeholder="Paste a link to return a noun" />
+        </div>
+        <div class="three mobile-one columns">
+          <input class="button expand postfix" id="submit" type="submit" value="submit" tabindex="-1"/>
+        </div>
+      </div>
+      <p id="tabtitle"/></p>
+      <h5 class="txtcnt subheader centered">Press enter to receive a short word for the current tab, or enter the word to retrieve the link.</h5>
+    </div>
+  </div>
+  <div class="footer">
+    <h5 class="txtcnt subheader centered"><a id="privacy" href="#">Privacy policy</a></h5>
+  </div>
+</body>
+</html>

@@ -1,10 +1,10 @@
 Stinkybad Chrome extension
 ==========================
 
-This repo contains all the code for the Stinkybad/Nounly Chrome extension.
+This repo contains all the code for the [Stinkybad](http://stinkybad.com)/[Nounly](http://nounly.com/) Chrome extension.
 This code is for educational purposes only, since the API key has been removed.
 
-* Extension background/eventpage
+* Extension with background/eventpage script
 * Popup with AJAX (asynchronous XMLHttpRequest)
 * chrome.tabs
 * chrome.omnibox

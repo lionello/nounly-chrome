@@ -97,7 +97,6 @@ var stinkybad = {
         var b = document.getElementById('submit');
         b.disabled = false;
         b.value = "submit";
-        document.body.appendChild(h1);
     },
 };
 

@@ -1,6 +1,7 @@
 {
-  "name": "Stinkybad",
-  "version": "0.2",
+  "name": "Stinkybad - URL shortener for humans",
+  "short_name": "Stinkybad",
+  "version": "0.3",
   "manifest_version": 2,
   "description": "Share the web with words.",
   "omnibox": { "keyword": "sb" },

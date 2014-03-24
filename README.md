@@ -8,6 +8,7 @@ This code is for educational purposes only, since the API key has been removed.
 * Popup with AJAX (asynchronous XMLHttpRequest)
 * chrome.tabs
 * chrome.omnibox
+* chrome.contextMenus
 * CryptoJS
 * Authenticating to a service ("Two-legged OAuth")
 

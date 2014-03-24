@@ -1,13 +1,13 @@
 {
   "name": "Stinkybad - URL shortener for humans",
   "short_name": "Stinkybad",
-  "version": "0.3",
+  "version": "0.4",
   "manifest_version": 2,
   "description": "Share the web with words.",
   "omnibox": { "keyword": "sb" },
   "background" : {
     "scripts": [ "eventPage.js" ],
-	"persistent": false
+    "persistent": false
   },
   "browser_action": {
     "default_icon": {
@@ -20,7 +20,8 @@
   "author": "Lionello Lunesu",
   "permissions": [
     "http://api.stinkybad.com/v1/",
-    "tabs"
+    "tabs",
+    "contextMenus"
   ],
   "icons": {
     "16": "images/icon_16.png",

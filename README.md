@@ -16,5 +16,5 @@ This code is for educational purposes only, since the API key has been removed.
 License
 =======
 The code is hereby placed in the Public Domain.
-The Stinkybad Rat logo is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.en_US).
-The CryptoJS code is [Copyright (c) 2009-2013 Jeff Mott](http://code.google.com/p/crypto-js/wiki/License).
+The Stinkybad Rat logo is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/deed.en_US).
+The [CryptoJS](http://code.google.com/p/crypto-js/) code is [Copyright (c) 2009-2013 Jeff Mott](http://code.google.com/p/crypto-js/wiki/License).

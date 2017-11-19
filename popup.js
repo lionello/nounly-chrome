@@ -5,13 +5,13 @@
 var stinkybad = {
 
     parse_: function(val) {
-        if (/^[a-zA-z]+([- ][a-zA-z]+)* *$/.test(val))
+        if (/^ *[a-zA-Z]+([- ][a-zA-Z]+)* *$/.test(val))
             return 1;
         if (/^https?:\/\/.+$/.test(val))
             return 2;
-        if (/^.+\.[a-z]{2,4}.*$/.test(val))
+        if (/^.+\.[a-z]{2,10}(\/.*)?$/.test(val))
             return 2;
-        return 0;
+    return 0;
     },
 
     updateIcon: function (element) {
@@ -32,7 +32,7 @@ var stinkybad = {
         if (t != 0)
           this.submitting();
         if (t == 1) {
-            chrome.tabs.create({ url: "http://stinkybad.com/" + elem.value });
+            chrome.tabs.create({ url: "http://nounly.com/" + elem.value });
             window.close();
         }
         return t == 2;
@@ -50,7 +50,7 @@ var stinkybad = {
         elem.addEventListener('focus', function (e) { e.target.select(); });
         elem.focus();
         document.getElementById('submit').addEventListener('click', this.onsubmit_.bind(this));
-        document.getElementById('privacy').addEventListener('click', function(e) { chrome.tabs.create({ url: "http://stinkybad.com/privacy.html" })});
+        document.getElementById('privacy').addEventListener('click', function(e) { chrome.tabs.create({ url: "http://nounly.com/privacy.html" })});
     },
 
     onchange_: function (e) {
@@ -79,7 +79,7 @@ var stinkybad = {
         var signature = hash.toString(CryptoJS.enc.Base64);
 
         var xhr = new XMLHttpRequest();
-        xhr.open("POST", "http://api.stinkybad.com/v1/", true, null, null);
+        xhr.open("POST", "http://api.nounly.com/v1/", true, null, null);
         xhr.setRequestHeader("Content-Type", "application/json");
         xhr.setRequestHeader("X-Date", UTCstring);
         xhr.setRequestHeader("Cache-Control", "no-cache");

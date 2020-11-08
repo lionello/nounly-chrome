@@ -1,7 +1,7 @@
 {
   "name": "Nounly - URL shortener for humans",
   "short_name": "Nounly",
-  "version": "0.4",
+  "version": "0.5",
   "manifest_version": 2,
   "description": "Share the web with words.",
   "omnibox": { "keyword": "nounly" },
